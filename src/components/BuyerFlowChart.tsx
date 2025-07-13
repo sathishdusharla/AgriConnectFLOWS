@@ -516,6 +516,21 @@ export const BuyerFlowChart: React.FC<BuyerFlowChartProps> = ({ onBack }) => {
           </div>
         </div>
 
+        {/* Footer */}
+        <div className="mt-8 text-center">
+          <p className="text-xs text-gray-500">
+            Developed by{' '}
+            <a 
+              href="https://linkedin.com/in/sathishdusharla" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:text-blue-800 underline cursor-pointer transition-colors"
+            >
+              @Sathish Dusharla
+            </a>
+          </p>
+        </div>
+
       </div>
     </div>
   );
