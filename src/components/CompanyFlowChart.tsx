@@ -522,17 +522,7 @@ export const CompanyFlowChart: React.FC<CompanyFlowChartProps> = ({ onBack }) =>
 
         {/* Footer */}
         <div className="mt-8 text-center">
-          <p className="text-xs text-gray-500">
-            {' '}
-            <a 
-              href="https://linkedin.com/in/sathishdusharla" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-purple-600 hover:text-purple-800 underline cursor-pointer transition-colors"
-            >
-              @Sathish Dusharla
-            </a>
-          </p>
+          
         </div>
 
       </div>
